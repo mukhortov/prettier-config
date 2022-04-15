@@ -1,0 +1,31 @@
+{
+  "name": "@muhortov/prettier-config",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "prettier --write '**/*.{ts,tsx,js,jsx,vue,json,html,css,sass,scss,less,md,yaml,yml}'",
+    "release": "yarn publish --access=public"
+  },
+  "description": "Prettier configuration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukhortov/prettier-config"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Peter Mukhortov <peter@mukhortov.com>",
+  "license": "MIT",
+  "files": [
+    "prettier.config.js"
+  ],
+  "main": "./prettier.config.js",
+  "prettier": "./prettier.config.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
